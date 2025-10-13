@@ -5,7 +5,7 @@ import sys
 
 # Redis config
 redis_client = redis.Redis(
-    host='veera-xibjly.serverless.use1.cache.amazonaws.com',
+    host='test-oue2fz.serverless.use1.cache.amazonaws.com',
     port=6379,
     ssl=True,  # Set to True for ElastiCache with TLS
     decode_responses=True,
@@ -13,9 +13,9 @@ redis_client = redis.Redis(
 )
 
 # RDS config
-RDS_HOST = 'rds-main.cno6u86ymx4c.us-east-1.rds.amazonaws.com'
+RDS_HOST = 'database-1.cj8oc8ga05ck.us-east-1.rds.amazonaws.com'
 RDS_USER = 'admin'
-RDS_PASSWORD = 'srivardhan'
+RDS_PASSWORD = 'Cloud123'
 RDS_DB_NAME = 'test'
 TABLE_NAME = 'users'
 
