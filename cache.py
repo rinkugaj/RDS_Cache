@@ -5,7 +5,7 @@ import sys
 
 # Redis config
 redis_client = redis.Redis(
-    host='elastictst-omrdre.serverless.use1.cache.amazonaws.com:6379',
+    host='elastictst-omrdre.serverless.use1.cache.amazonaws.com',
     port=6379,
     ssl=True,  # Set to True for ElastiCache with TLS
     decode_responses=True,
